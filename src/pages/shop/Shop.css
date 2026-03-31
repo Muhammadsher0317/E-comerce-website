@@ -1,0 +1,98 @@
+.shopmains .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+.shopmains_left {
+  width: 70%;
+}
+.shopmains_right {
+  width: 30%;
+
+}
+.shopmainbottom{
+    padding: 10px 0px;
+}
+.shopmaintop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shopmaintop h2 {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #3a3a3a;
+  line-height: 138%;
+  letter-spacing: 3%;
+}
+.shop_selct {
+  width: 150px;
+  height: 25px;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #3a3a3a;
+  line-height: 138%;
+  letter-spacing: 3%;
+  outline: none;
+}
+.shopsliderform {
+  width: 290px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #eeeeee;
+}
+.search_input {
+  width: 240px;
+  height: 53px;
+  background-color: transparent;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+}
+.shopslider_button {
+  width: 50px;
+  height: 53px;
+  border: none;
+  outline: none;
+  background-color: #272727;
+}
+.shopslider_button svg {
+  width: 19px;
+  height: 19px;
+  color: #ffffff;
+}
+.categorslar {
+  width: 290px;
+  height: 181px;
+}
+.categorslar h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: #272727;
+  text-decoration: underline;
+  letter-spacing: 6%;
+}
+.categorslar h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #3a3a3a;
+  font-family: "Lato", sans-serif;
+  line-height: 138%;
+  letter-spacing: 3%;
+  transition: all 0.3s ease;
+  margin-bottom: 3px;
+
+}
+
+.categorslar h2:hover{
+    color: #72AEC8;
+}

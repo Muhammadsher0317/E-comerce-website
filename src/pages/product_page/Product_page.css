@@ -1,0 +1,178 @@
+.newrealted .container {
+  padding: 20px 0px;
+  height: 80vh;
+}
+.newrealted .mobiler_sliders {
+  height: 900px;
+}
+.moile_product_entrance h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 113.99999999999999%;
+  letter-spacing: 6%;
+  text-transform: uppercase;
+}
+.pinkwathch .container {
+  padding: 20px 0px;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+.pinkleft {
+  width: 45%;
+}
+.pinkleft img {
+  width: 100%;
+}
+.pinkright {
+  width: 47%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.pinkwdthch {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 113.99999999999999%;
+  letter-spacing: 6%;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.star_pink {
+  display: flex;
+  align-items: start;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  letter-spacing: 3%;
+  justify-content: space-between;
+  width: 50px;
+  margin-bottom: 10px;
+}
+.price_product {
+  font-weight: 500;
+  font-style: Medium;
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #72aec8;
+}
+.productpagedata {
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  line-height: 138%;
+  letter-spacing: 3%;
+  padding: 10px 0px;
+  color: #3a3a3a;
+}
+.colorname {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 6%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+}
+.coloor_row {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+}
+.coloor_row h3 {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 0px;
+  line-height: 138%;
+  letter-spacing: 3%;
+}
+.coloor_row h3:hover {
+  color: #72aec8;
+}
+.texttsixe {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 6%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+}
+.size_row {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+}
+.size_row h3 {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 0px;
+  line-height: 138%;
+  letter-spacing: 3%;
+  margin-bottom: 20px;
+}
+.stock {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  letter-spacing: 3%;
+  margin-bottom: 10px;
+  color: #3a3a3a;
+}
+
+.number_title {
+  margin-bottom: 10px;
+}
+.realted_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 10px 0px;
+}
+.realted_buttons button {
+  height: 53px;
+}
+.addtocart {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 148%;
+  letter-spacing: 10%;
+  width: 250px;
+  text-transform: uppercase;
+  background: #272727 !important;
+}
+.sku {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 138%;
+  letter-spacing: 3%;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.categoryslar {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  letter-spacing: 3%;
+  text-transform: capitalize;
+}
+.madeslarda {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  letter-spacing: 3%;
+  text-transform: capitalize;
+}

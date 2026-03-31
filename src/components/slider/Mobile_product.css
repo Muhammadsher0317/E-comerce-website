@@ -1,0 +1,93 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.slider_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mySwipersecon .swiper-pagination-bullet {
+  background-color: transparent;
+}
+.slider_img {
+  width: 100%;
+  height: 418px;
+}
+.slider_img img {
+  width: 100%;
+
+  height: 100%;
+}
+.slider_title h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #272727;
+}
+.slider_title .newsh2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #72aec8;
+}
+.heropagiantio .swiper_boxs {
+  background: transparent;
+}
+.secondslider {
+  background-color: transparent;
+}
+.slider_box {
+  position: relative;
+  gap: 20px;
+  width: 100%;
+  height: 460px;
+  overflow: hidden;
+}
+.slider_box:hover .swiper_buttonslar {
+  bottom: 140px;
+
+}
+.swiper_buttonslar {
+  display: flex;
+  width: 250px;
+  height: 53px;
+  position: absolute;
+  background: #272727 !important;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  align-content: center;
+  font-weight: 500;
+  align-items: center;
+  /* top: -150px; */
+  left: 0px;
+  gap: 20px;
+  bottom: -10px;
+  justify-content: space-between;
+  transition: bottom 0.3s ease;
+  
+}
+.slider_box .slider_img {
+  margin-bottom: 20px;
+}
