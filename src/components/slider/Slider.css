@@ -49,7 +49,7 @@
     justify-content: start;
     width: 200px;
 }
-.swiper-button-next {
+.swiper_boxs .swiper-button-next {
   width: 62px;
   height: 125px;
   color: #d7dddf;
@@ -57,10 +57,11 @@
 .swiper-button-next:hover {
   color: #72aec8;
 }
-.swiper-button-prev {
-  width: 62px;
-  height: 125px;
-  color: #d7dddf;
+.swiper_boxs .swiper-button-prev {
+  width: 62px !important;
+
+  height: 125px !important;
+  color: red !important;
 }
 .swiper-button-prev:hover {
   color: #72aec8;

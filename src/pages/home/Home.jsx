@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import Slider from "../../components/slider/Slider";
 import Mobile_product from "../../components/slider/Mobile_product";
 import { FaShoppingCart } from "react-icons/fa";
 import "./Home.css";
 import Note from "../../components/slider/Note";
 import { BsInstagram } from "react-icons/bs";
+import { DataContext } from "../../App";
+import { Link } from "react-router-dom";
 function Home() {
+  const { kinddata } = useContext(DataContext);
+  console.log(kinddata);
+
   return (
     <>
       <Slider />
@@ -126,41 +131,18 @@ function Home() {
         <div className="container">
           <div className="imgbox_title">Shop our insta</div>
           <div className="img_box_cards">
-            <div className="img_box">
-              <img src="/imgs/iphonephone.svg" alt="" />
-              <div className="img_boxicons">
-                <BsInstagram/>
-              </div>
-
-            </div>
-             <div className="img_box">
-              <img src="/imgs/iphonephone.svg" alt="" />
-              <div className="img_boxicons">
-                <BsInstagram/>
-              </div>
-
-            </div>
-             <div className="img_box">
-              <img src="/imgs/iphonephone.svg" alt="" />
-              <div className="img_boxicons">
-                <BsInstagram/>
-              </div>
-
-            </div>
-             <div className="img_box">
-              <img src="/imgs/iphonephone.svg" alt="" />
-              <div className="img_boxicons">
-                <BsInstagram/>
-              </div>
-
-            </div>
-             <div className="img_box">
-              <img src="/imgs/iphonephone.svg" alt="" />
-              <div className="img_boxicons">
-                <BsInstagram/>
-              </div>
-
-            </div>
+            {kinddata.map((item) => {
+              return (
+                <div className="img_box">
+                  <img src={item.img} alt="" />
+                  <div className="img_boxicons">
+                    <Link>
+                      <BsInstagram />
+                    </Link>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { Link, Links, NavLink } from "react-router-dom";
 import "./Navbar.css"
 function Navbar() {
   return (
@@ -36,8 +36,10 @@ function Navbar() {
                 <CiSearch />
                 <FaUser />
                 <div className="nav_cart">
-                    <FaShoppingCart />
-                    <span>(0)</span>
+                <Link className="nav_cart" to={"/cart"}><FaShoppingCart />
+                   <span>(0)</span>
+                </Link> 
+                 
                 </div>
 
             </div>
